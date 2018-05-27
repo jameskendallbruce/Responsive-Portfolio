@@ -230,13 +230,19 @@ input[type=submit] {
   }
 
   #masthead {
-  position: fixed;
-  left: 0;
+    position: fixed;
+    left: 0;
+    padding:0px 30px 0px 0px;
+  }
+
+  .bar {
+    padding-right: 10px;
   }
 
   #main-container {
     float: left;
     max-width: 66.7%;
+    margin: 30px 10px 30px 10px;
   }
 
 }
@@ -247,18 +253,23 @@ input[type=submit] {
     max-width: 748px;
   }
 
+  #masthead {
+    padding:0px 30px 0px 0px;
+  }
+
   #main-container {
     float: left;
-    max-width: 100%;
+    max-width: 95%;
+    margin: 10px;
   }
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 702px) {
 
-  body {
-    max-width: 620px;
-  }
+  /* body {
+    /* max-width: 620px;
+  } */
 
   #masthead {
     position: static;
@@ -267,6 +278,7 @@ input[type=submit] {
     clear: both;
     text-align: center;
     margin-bottom: 10px;
+    padding: 0;
   }
 
   nav{
